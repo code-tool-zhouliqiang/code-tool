@@ -33,7 +33,8 @@
                             <tbody>
                                 <#list list as row>
                                 <tr>
-                                    <td>${row.id}</td>
+                                    <#--<td>${row.id}</td>-->
+                                    <td>${row_index +1}</td>
                                     <td>${row.name}</td>
                                     <td>${row.key}</td>
                                     <td>

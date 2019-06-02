@@ -57,7 +57,8 @@
                                         <input type="checkbox" name="id" value="${row.id}">
                                     </td>
                                     <td>
-                                        <img src="<@resource src=row.thumbnail/>" style="width: 80px;">
+                                        <!--<img src="<@resource src=row.thumbnail/>" style="width: 80px;">-->
+                                        ${row_index + 1}
                                     </td>
                                     <td>
                                         <a href="${base}/post/${row.id}" target="_blank">${row.title}</a>

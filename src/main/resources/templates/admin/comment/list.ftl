@@ -41,7 +41,8 @@
                                     <td>
                                         <input type="checkbox" name="id" value="${row.id}">
                                     </td>
-                                    <td>${row.id}</td>
+                                    <#--<td>${row.id}</td>-->
+                                    <td>${row_index +1}</td>
                                     <td>${row.content}</td>
                                     <td>${row.toId}</td>
                                     <td>${row.author.username}</td>

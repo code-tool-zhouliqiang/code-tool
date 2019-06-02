@@ -38,7 +38,8 @@
                             <tbody>
                                 <#list page.content as row>
                                 <tr>
-                                    <td class="text-center">${row.id}</td>
+                                    <#--<td class="text-center">${row.id}</td>-->
+                                    <td class="text-center">${row_index +1}</td>
                                     <td>${row.name}</td>
                                     <td class="text-center">
                                         <#if row.id != 1>
