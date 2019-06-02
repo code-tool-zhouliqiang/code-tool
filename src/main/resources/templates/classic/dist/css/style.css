@@ -5,7 +5,7 @@ html, body {
 body {
     margin: 0;
     padding-top: 50px;
-    background: #f6f6f6;
+    background: #fff;
     font-family: 'Helvetica Neue', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', 'Microsoft Yahei', sans-serif;
     -webkit-font-smoothing: antialiased;
     overflow-y: scroll;
@@ -277,7 +277,7 @@ abbr[data-original-title], abbr[title] {
     width: 100%;
     min-height: 50px;
     border-bottom: 1px solid #f0f0f0;
-    background: #fff;
+    background: #171717;
     opacity: .97;
 }
 
@@ -299,19 +299,19 @@ abbr[data-original-title], abbr[title] {
 }
 
 .site-header .navbar-nav > li > a {
-    color: #383838;
+    color: #fff;
     font-size: 14px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
 .site-header .navbar-nav > li > a:focus, .site-header .navbar-nav > li > a:hover {
-    color: #03a9f4;
+    color: #fff;
     background-color: transparent;
 }
 
 .site-header .navbar-nav > li.active > a {
-    color: #03a9f4;
+    color: #fff;
 }
 
 .site-header .navbar-button {

@@ -105,13 +105,13 @@
 				<#if profile??>
                     <@controls name="post">
                         <li>
-                            <a href="${base}/post/editing" class="plus"><i class="icon icon-note"></i> 写文章</a>
+                            <a href="${base}/post/editing" class="plus" style="color:#fff"><i class="icon icon-note"></i> 写文章</a>
                         </li>
                     </@controls>
                     <li class="dropdown">
                         <a href="#" class="user dropdown-toggle" data-toggle="dropdown">
                             <img class="img-circle" src="<@resource src=profile.avatar + '?t=' + .now?time />">
-                            <span>${profile.name}</span>
+                            <span style="color:#fff">${profile.name}</span>
                         </a>
                         <ul class="dropdown-menu" role="menu">
                             <li>
@@ -129,7 +129,7 @@
 				<#else>
                     <li><a href="${base}/login" class="btn btn-default btn-sm signup">登录</a></li>
                     <@controls name="register">
-                        <li><a href="${base}/register" class="btn btn-primary btn-sm signup">注册</a></li>
+						<li><a href="${base}/register" class="btn btn-primary btn-sm signup">注册</a></li>
                     </@controls>
 				</#if>
 

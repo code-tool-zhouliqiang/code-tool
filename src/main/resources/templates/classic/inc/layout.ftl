@@ -25,8 +25,7 @@
     <meta name="keywords" content="mtons, ${keywords?default(options['site_keywords'])}">
     <meta name="description" content="${description?default(options['site_description'])}">
     <meta name="mtons:mblog" content="${site.version}">
-    ${options['site_metas']}
-
+	<!--${options['site_metas']}-->
     <title>${title?default(options['site_name'])}</title>
 
     <link href="${base}/dist/vendors/pace/themes/pace-theme-minimal.css" rel="stylesheet"/>
@@ -35,7 +34,7 @@
     <link href="${base}/dist/css/editor.css" rel="stylesheet"/>
     <link href="${base}/dist/css/plugins.css" rel="stylesheet"/>
     <link href="${base}/theme/classic/dist/css/style.css" rel="stylesheet"/>
-
+    
     <link href="${base}/dist/vendors/simple-line-icons/css/simple-line-icons.css" rel="stylesheet"/>
     <link href="${base}/dist/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
 
@@ -57,6 +56,19 @@
     <!-- Favicons -->
     <link href="<@resource src=options['site_favicon']/>" rel="apple-touch-icon-precomposed" />
     <link href="<@resource src=options['site_favicon']/>" rel="shortcut icon" />
+
+    <!-- 百度统计 start -->
+    <script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?9137792f6cd1835a5506308931b75aab";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+    </script>
+    <!-- 百度统计 end -->
+
 </head>
 <body>
     <!-- header -->
