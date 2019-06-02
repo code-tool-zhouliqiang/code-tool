@@ -1,1 +1,1 @@
-Welcome to blog.code-tool.com
+Welcome to www.code-tool.com
