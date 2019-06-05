@@ -3,28 +3,14 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <!--
-    ------------------------------------------------------
-     _____ ______   ________  ___       ________  ________
-    |\   _ \  _   \|\   __  \|\  \     |\   __  \|\   ____\
-    \ \  \\\__\ \  \ \  \|\ /\ \  \    \ \  \|\  \ \  \___|
-     \ \  \\|__| \  \ \   __  \ \  \    \ \  \\\  \ \  \  ___
-      \ \  \    \ \  \ \  \|\  \ \  \____\ \  \\\  \ \  \|\  \
-       \ \__\    \ \__\ \_______\ \_______\ \_______\ \_______\
-        \|__|     \|__|\|_______|\|_______|\|_______|\|_______|
-    ------------------------------------------------------------
-    version: ${site.version}
-    github : https://github.com/langhsu/mblog
-    ------------------------------------------------------------
-    -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--[if IE]>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'/>
     <![endif]-->
-    <meta name="keywords" content="mtons, ${keywords?default(options['site_keywords'])}">
+    <meta name="keywords" content="${keywords?default(options['site_keywords'])}">
     <meta name="description" content="${description?default(options['site_description'])}">
-    <meta name="mtons:mblog" content="${site.version}">
+    <meta name="code-tool" content="1.0">
 	<!--${options['site_metas']}-->
     <title>${title?default(options['site_name'])}</title>
 
@@ -57,7 +43,7 @@
     <link href="<@resource src=options['site_favicon']/>" rel="apple-touch-icon-precomposed" />
     <link href="<@resource src=options['site_favicon']/>" rel="shortcut icon" />
 
-    <!-- 百度统计 start -->
+    <!-- 掳脵露脠脥鲁录脝 start -->
     <script>
 	var _hmt = _hmt || [];
 	(function() {
@@ -67,7 +53,7 @@
 	  s.parentNode.insertBefore(hm, s);
 	})();
     </script>
-    <!-- 百度统计 end -->
+    <!-- 掳脵露脠脥鲁录脝 end -->
 
 </head>
 <body>
