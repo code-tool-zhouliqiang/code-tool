@@ -8,7 +8,7 @@ server:
         directBuffers: true
 spring:
     profiles:
-        active: @profileActive@
+        active: "@profileActive@"
     devtools:
         enabled: true
     cache:
@@ -65,13 +65,13 @@ logging:
 # site.options.theme: [default|classic]
 site:
     version: 3.5.0
-    #location: ${user.dir}
-    location: /var/www/images/www.code-tool.com/
+    location: ${user.dir}
+    #location: /var/www/images/www.code-tool.com/
     controls:
         # 注册开关
         register: true
         # 注册开启邮箱验证
-        register_email_validate: true
+        register_email_validate: false
         # 发布文章开关
         post: true
         # 评论开关
